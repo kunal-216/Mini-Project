@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h2>Password Generator</h2>
+        <div class="generator">
+            <!-- Using Readonly we will not be able to type in the input fields -->
+            <input type="text" class="Password" readonly>
+            <button class="btn">Generate</button>
+        </div>
+        <form class="form">
+            <div class="formInputs">
+                <label for="Password-length">Password Length:</label>
+                <input type="number" id="Password-length" min="8">
+            </div>
+            <div class="formInputs">
+                <label for="lowercase">Include LowerCase:</label>
+                <input type="checkbox" id="lowercase" class="checkbox">
+            </div>
+            <div class="formInputs">
+                <label for="uppercase">Include UpperCase:</label>
+                <input type="checkbox" id="uppercase" class="checkbox">
+            </div>
+            <div class="formInputs">
+                <label for="Numbers">Include Numbers:</label>
+                <input type="checkbox" id="Numbers" class="checkbox">
+            </div>
+            <div class="formInputs">
+                <label for="Symbols">Include Symbols:</label>
+                <input type="checkbox" id="Symbols" class="checkbox">
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
