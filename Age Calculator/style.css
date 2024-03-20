@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+    background-color: rgb(191, 220, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    height: 350px;
+    width: 350px;
+    background-color: rgb(196, 233, 233);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px rgba(0,0,0,0.4);
+}
+
+h2{
+    font-size: 28px;
+    margin-top: 8px;
+}
+
+.input-div{
+    height: 80px;
+    width: 90%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+label{
+    text-align: center;
+    font-size: 20px;
+}
+
+input{
+    height: 27px;
+    width: 90%;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn{
+    background-color: rgb(69, 69, 238);
+    color: white;
+    width: 35%;
+    height: 28px;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.msg-container{
+    height: 25px;
+    width: 90%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
