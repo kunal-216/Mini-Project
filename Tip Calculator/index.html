@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>Tip Calculator</h1>
+        <form class="form">
+            <label for="billAmt" id="billAmtL">Bill Amount (₹)</label>
+            <input type="number" id="billAmt" placeholder="Enter Amount">
+            <label for="tipPct" id="tipPctL">Tip Percentage (%)</label>
+            <input type="number" id="tipPct" placeholder="Enter Percentage">
+        </form>
+        <button class="btn">Calculate</button>
+        <hr>
+        <div class="msg-container">
+            <p class="para" id="tipAmt">Tip Amount: ₹NaN</p>
+            <p class="para" id="totalAmt">Total Amount: ₹NaN </p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
