@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body{
+    background-color: rgb(191, 220, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    margin-top: 10px;
+    width: 650px;
+    background-color: rgb(196, 233, 233);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 16px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.todo-container{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border: none;
+    outline: none;
+    min-height: 25%;
+    max-height: 80%;
+    overflow-y: auto;
+}
+
+input{
+    height: 40px;
+    width: 75%;
+    background-color: #eee;
+    font-size: 20px;
+    padding-left: 9px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#addBtn{
+    width: 15%;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    background-color: rgb(69,69,238);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+#addBtn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+ul{
+    width: 89%;
+    list-style-type: none;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+li{
+    padding:5px 5px;
+    background-color: #eee;
+    font-size: 15px;
+    padding-left: 9px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.deleteBtn{
+    min-width: 35px;
+    height: 30px;
+    font-size: 17px;
+    background-color: rgb(239, 131, 15);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.deleteBtn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
