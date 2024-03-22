@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+    background-color:  rgb(191, 220, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: rgb(196, 233, 233);
+    min-width: 500px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px rgba(0,0,0,0.3);
+    margin-top: 10px;
+}
+
+h2{
+    margin:15px 0px;
+    font-size: 27px;
+}
+
+.expense-header{
+    width: 93%;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    margin-top: 15px;
+}
+
+.Addbtn{
+    height: 35px;
+    width: 30%;
+    background-color: rgb(11, 141, 254);
+    color: white;
+    font-size: 16px;
+    padding: 5px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.Addbtn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.add-list{
+    width: 93%;
+    margin: 10px 0px;
+    list-style-type: none;
+}
+
+.list-item{
+    background-color: #eee;
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-overflow: ellipsis;
+}
+
+.deleteBtn{
+    font-size: 20px;
+    padding: 4px 10px;
+    background-color: rgb(245, 148, 45);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 5px 10px;
+}
+
+.expense-des-div{
+    margin: 5px 8px;
+}
+
+.para{
+    font-size: 18px;
+    text-align: center;
+    margin: 15px 0px;
+}
